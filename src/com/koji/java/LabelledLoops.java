@@ -23,6 +23,18 @@ public class LabelledLoops {
                 System.out.print(j+++" ");
                 if (j==5) break runsFiveTimes;
             }
+        System.out.println();
+
+        int k = 0;
+        int x;
+        thisDoWhileLoop:
+            do {
+                x = ++k;
+                System.out.println(++x + "F");
+                System.out.println(x++ + "M");
+                System.out.println(++x + "L");
+                if(x > 8) break thisDoWhileLoop;
+            } while(x > k);
 
     }
 }
