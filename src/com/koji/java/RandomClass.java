@@ -6,8 +6,9 @@ import java.util.Random;
 public class RandomClass {
 boolean bool;
 
-public static void Main(){
+public static String Main(){
     System.out.println("HELLO");
+    return "RETURNED STRING";
 }
     public static void main(String[] args)throws Exception{
         Random r = new Random();
@@ -57,7 +58,8 @@ public static void Main(){
         // you don't need 1 or 3 if you have 2
         // if you don't have 2, it will run forever
 
-        Main();
+        // Although it is bad practice, you can have both main() and Main() methods.
+        System.out.println(Main());
 
 
         // enhanced for loop is just a for each loop
