@@ -8,9 +8,9 @@ public class TryCatchExceptions {
             //throw new NullPointerException();
             //throw new IndexOutOfBoundsException();
             //throw new Exception();
-        } catch (NullPointerException e){
+        } catch (IndexOutOfBoundsException e){
             System.out.println(e);
-        } catch (IndexOutOfBoundsException e) {
+        } catch (NullPointerException e) {
             System.out.println(e);
         } catch (Exception e) {
             System.out.println(e);
