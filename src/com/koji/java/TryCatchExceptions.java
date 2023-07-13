@@ -3,6 +3,7 @@ package com.koji.java;
 public class TryCatchExceptions {
 
     public static void main(String[] args){
+
         try {
             System.out.println("Inside try");
             //throw new NullPointerException();
